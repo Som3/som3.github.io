@@ -175,6 +175,16 @@ html, body {
   font-size: 18px;
 }
 
+.blogpost a {
+  display: inline-block;
+  border-bottom: 1px solid #34495E;
+}
+
+.blogpost a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+
 /* Footer  */
 .footer {
   text-decoration: none !important;
