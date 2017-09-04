@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Home</title>
-    <link>http://valekseev.me/blog/</link>
-    <description>Recent content in Blog on Home</description>
+    <title>Architecture on Home</title>
+    <link>http://valekseev.me/tags/architecture/</link>
+    <description>Recent content in Architecture on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 26 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://valekseev.me/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://valekseev.me/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>http://valekseev.me/blog/optimize-aws/</guid>
       <description>Preface Been written system of auto-scaling which managed up to 600 instances EC2. Product owner was not satisfied cost of this infrastructure, the development team was assigned task - decrease cost.  A little bit about project: it&amp;rsquo;s cloud service which processes vast amounts of user data every day on schedule.
 Solution  using faster machines to reduce the uptime distributing tasks on heterogeneous machines depending on the heaviness of the task using SPOT requests prediction of the time required to complete the task  The analysis of old solution  Dispatcher is load balancer, it assign tasks according to the exists EC2 instances Processor or creates new instances if need.</description>
-    </item>
-    
-    <item>
-      <title>What&#39;s next?</title>
-      <link>http://valekseev.me/blog/wtat-is-next/</link>
-      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://valekseev.me/blog/wtat-is-next/</guid>
-      <description>End of university Finally it ended, I changed university 3 times :)  Studied one semester in Innopolis University - it was very free, but useless time. After that I back to Kazan Federal University, where started studying. Can&amp;rsquo;t say that it was better, but I could work fulltime :) I remember only as my faculty took 2nd place on mini-footbal championat, it was all of a sudden, we were outsiders of the group.</description>
     </item>
     
   </channel>

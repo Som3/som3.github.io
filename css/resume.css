@@ -9,6 +9,7 @@ a:visited {
 
 a:hover, a:focus {
     color: #27A822;
+    text-decoration: none;
 }
 
 p, address {
@@ -41,6 +42,10 @@ h1 {
 
 .container > p:last-child {
     margin-bottom: 20px;
+}
+
+.company {
+    border-bottom: 1px dashed #34495E;
 }
 
 section {

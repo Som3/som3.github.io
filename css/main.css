@@ -83,8 +83,8 @@ html, body {
 
 /* Custom page CSS */
 .container {
-  width: auto;
-  max-width: 800px;
+  /*width: auto;*/
+  /*max-width: 800px;*/
   text-align: center;
 }
 .container .text-muted {
@@ -209,3 +209,11 @@ div.footer{
   padding-bottom: 15px;
   
 }*/
+.blogpost img {
+  width: auto;
+  height: 100%;
+}
+
+.post-img {
+  width: 100% !important;
+}

@@ -24,7 +24,6 @@
  =======================*/
 .comments-container {
   margin: 60px auto 15px;
-  width: 768px;
   font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
 }
 
@@ -236,7 +235,7 @@
 
 .comment-box .comment-name.by-author, .comment-box .comment-name.by-author a {color: #03658c;}
 .comment-box .comment-name.by-author:after {
-  content: 'autor';
+  content: 'author';
   background: #03658c;
   color: #FFF;
   font-size: 12px;
