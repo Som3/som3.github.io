@@ -6,44 +6,25 @@
     <description>Recent content in Tags on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 26 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://valekseev.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Architecture</title>
-      <link>http://valekseev.me/tags/architecture/</link>
-      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      <title>Жизнь</title>
+      <link>http://valekseev.me/tags/%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C/</link>
+      <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://valekseev.me/tags/architecture/</guid>
+      <guid>http://valekseev.me/tags/%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Aws</title>
-      <link>http://valekseev.me/tags/aws/</link>
-      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      <title>Путешествия</title>
+      <link>http://valekseev.me/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F/</link>
+      <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://valekseev.me/tags/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Life</title>
-      <link>http://valekseev.me/tags/life/</link>
-      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://valekseev.me/tags/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming</title>
-      <link>http://valekseev.me/tags/programming/</link>
-      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://valekseev.me/tags/programming/</guid>
+      <guid>http://valekseev.me/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F/</guid>
       <description></description>
     </item>
     
