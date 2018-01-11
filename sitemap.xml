@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://valekseev.me/blog/italy/</loc>
-    <lastmod>2017-10-25T00:00:00+00:00</lastmod>
+    <loc>http://valekseev.me/blog/fisrt/</loc>
+    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://valekseev.me/blog/</loc>
-    <lastmod>2017-10-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -19,7 +19,13 @@
   
   <url>
     <loc>http://valekseev.me/</loc>
-    <lastmod>2017-10-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://valekseev.me/category/life/</loc>
+    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -29,24 +35,6 @@
   
   <url>
     <loc>http://valekseev.me/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://valekseev.me/category/%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C/</loc>
-    <lastmod>2017-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://valekseev.me/tags/%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C/</loc>
-    <lastmod>2017-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://valekseev.me/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F/</loc>
-    <lastmod>2017-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
