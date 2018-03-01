@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digest on Home</title>
+    <link>http://valekseev.me/category/digest/</link>
+    <description>Recent content in Digest on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://valekseev.me/category/digest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Дайджест за февраль</title>
+      <link>http://valekseev.me/blog/febrary-digest/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://valekseev.me/blog/febrary-digest/</guid>
+      <description>Мой первый дайджест, который надеюсь войдёт в привычку. Феварль - месяц факапов. Сначала сняли квартиру в которой как оказалось жили не только мы, но и маленькие ползучие гады. Потом череда багов на работе, последний из которых мог обойтись в 15к $ для компании, но решение было найдено вовремя.
+Так же есть хорошие вещи.  От тараканов мы съехали - сняли квартиру в новом доме, недалеко от моей работы и через дорогу от работы моей невесты.</description>
+    </item>
+    
+  </channel>
+</rss>

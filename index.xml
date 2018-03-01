@@ -6,10 +6,20 @@
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://valekseev.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Дайджест за февраль</title>
+      <link>http://valekseev.me/blog/febrary-digest/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://valekseev.me/blog/febrary-digest/</guid>
+      <description>Мой первый дайджест, который надеюсь войдёт в привычку. Феварль - месяц факапов. Сначала сняли квартиру в которой как оказалось жили не только мы, но и маленькие ползучие гады. Потом череда багов на работе, последний из которых мог обойтись в 15к $ для компании, но решение было найдено вовремя.
+Так же есть хорошие вещи.  От тараканов мы съехали - сняли квартиру в новом доме, недалеко от моей работы и через дорогу от работы моей невесты.</description>
+    </item>
     
     <item>
       <title>Номер 1. Глава 1</title>
