@@ -6,19 +6,19 @@
     <description>Recent content in Programming on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 26 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://valekseev.me/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>As we optimized cost AWS infrastructure utilization</title>
-      <link>http://valekseev.me/blog/optimize-aws/</link>
-      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      <title>Как мы писали социальную сеть</title>
+      <link>http://valekseev.me/blog/os/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://valekseev.me/blog/optimize-aws/</guid>
-      <description>Preface Been written system of auto-scaling which managed up to 600 instances EC2. Product owner was not satisfied cost of this infrastructure, the development team was assigned task - decrease cost.  A little bit about project: it&amp;rsquo;s cloud service which processes vast amounts of user data every day on schedule.
-Solution  using faster machines to reduce the uptime distributing tasks on heterogeneous machines depending on the heaviness of the task using SPOT requests prediction of the time required to complete the task  The analysis of old solution  Dispatcher is load balancer, it assign tasks according to the exists EC2 instances Processor or creates new instances if need.</description>
+      <guid>http://valekseev.me/blog/os/</guid>
+      <description>Прошлым летом ко мне обратился друг, позвал на проект - писать API для социальной сети. Изначально мой грейд не устроил ребят и они нашли парня который должен был выполнить эту, через пару месяцев стало понятно что он ничего не сделает и вновь обратились ко мне. Я согласился на грейд сильно ниже, ибо на тот момент нужны были деньги.
+ В данном посте я раскажу как мы выстраивали работу, чем пользовались, как просирали сроки и всё это без менеджера.</description>
     </item>
     
   </channel>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="map[]" />
+    <meta name="description" content="Home blog">
+    <link rel="shortcut icon" type="image/x-icon" href="http://valekseev.me/img/favicon.ico">
+    <title>Как мы писали социальную сеть&nbsp;- Vladimir Alekseev
+	</title>
+    <meta name="generator" content="Hugo 0.32.3" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://valekseev.me/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-114865222-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://valekseev.me/"><i class="fa fa-home"></i></a>
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/resume/">RESUME</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      <div class="container">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="http://valekseev.me/blog/os/">Как мы писали социальную сеть</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          March 2, 2018
+            &nbsp;&nbsp;
+            
+              <a href="/tags/programming" class="tag-a"><span class="label tag">programming</span></a>
+            
+              <a href="/tags/java" class="tag-a"><span class="label tag">java</span></a>
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              
+
+<p>Прошлым летом ко мне обратился друг, позвал на проект - писать API для социальной сети. Изначально мой грейд не устроил ребят и они нашли парня который должен был выполнить эту, через пару месяцев стало понятно что он ничего не сделает и вновь обратились ко мне. Я согласился на грейд сильно ниже, ибо на тот момент нужны были деньги.</p>
+<p> В данном посте я раскажу как мы выстраивали работу, чем пользовались, как просирали сроки и всё это без менеджера. 
+<center><img class="post-img" src="/posts/os/index.png"></center>
+</p>
+
+<p><code>Дальше будет много текса</code></p>
+
+<hr/>
+
+<p> Команда у нас был маленькая - я (бэкенд), фронтендер , дизайнер. ТЗ было составлено до моего прихода, да и чего таить - я ни разу не виделся с заказчиками, даже имен не знаю.</p>
+
+<p>Стек мы выбрали тот который хорошо каждый знает, никаких экспериментов. Клиент на <code>React</code> , сервер на <code>java8</code> с использование <code>Spring Boot</code></p>
+
+<p> Мокапы были готовы и утверждены, я бегло посмотрел на них и не нашёл никаких проблем, которые всплыли позже (отсутсвие паджинация, одно и тоже поле разных типов на разных страницах и т.д.) - первый блин комом :). После утверждения мокапов - я начал писать API, так как флоу был ясен, фронтендер уже что-то начал делать на клиентской части.</p>
+
+<p>Таск-трекером мы выбрали <a href="https://asana.com/">Asana</a> - дизайнер и фронтендер давно были с ним знакомы, работали в другой конторе с ним, а мне было всё равно. Но поработав с ним более полугода - я скажу, что он идеально подходит для таких маленьких команд и проектов. Умеет в сабтаски, сроки, выставление исполнителей. Можно создавать саб-проекты, чем мы и пользовались, что бы отделить задачи для каждого человека.
+<center><img class="post-img" src="/posts/os/asana.png"></center>
+<br/>
+Прототипы были сделаны в <a href="https://www.axure.com/">Axure</a> - думаю в представление не нуждается, давно зарекомендовавшая себя софтина. Да и доступ к нашим прототипам я давно потерял, так что показать ничего не смогу ;)
+<br/>
+Дизайн хранили в <a href="https://invisionapp.com/">Invision</a>, по сравнению с тем что мы используем на работе (<a href="https://www.adobe.com/ru/creativecloud.html">Creative Cloud</a>) это просто небо и земля. Я знаю что есть и другие сервисы для этого, но <code>Creative Cloud</code> я бы никому не рекомендовал, это лагающее дерьмо мамонта, а инвижн вполне был удобен на нашем проекте.
+<center><img class="post-img" src="/posts/os/invision.png"></center>
+<center>так выглядит Invision</center>
+<br/>
+Для хранения кода думали взять приватный репозиторий на <a href="https://github.com/">GitHub</a>, но подумали что это излишки, красивый интерфейс не причина платить и выбрали <a href="https://bitbucket.org/">BitBucket</a>, тем более что доступ к коду нужен был всего 2ум людям.
+Работали всего в 2ух ветках, мастер в котором работал клиентщик и api-brunch для меня, время от времени делая мердж.
+<p> Я начал писать код в сентябре 2017 года, за месяц реализовал примерно 40% функционала, а вот дизайн всё ещё не был до конца готов. Дизайн рисовался в ночь перед промежуточными показами, ибо дизайнер было перегружен другими заказами - это отразилось на общей производительности и мотивации команды. Когда один неукладывается в сроки, остальные начиют прокрастинировать - очень важно давать жесткие сроки всем своим тиммейтам. </p>
+<p> Первый промежуточный показ был пройден, всех всё устроило. Мы начали искать на фрилансе человека который нарисует нам логотип. </p>
+<p> Когда дизайн был готов примерно на 50%, фронтенд разработчик начал натягивать верстку на реакт компоненты - где мы опять таки столкнулись с проблемами. Не было единого стайлгайда, кнопки на разных страницах могли отличаться. Дизайнеру была поставлена задача собрать минимальный UI-kit и дальше пользоваться им. </p>
+<p> Моя производительность неумолимо падала, проект начинал мне надоедать. Затянувшиеся сроки (проект расчитывался на 3 месяца, но на сегодняшний день он всё ещё не сдан), изначально озвученная маленькая стоимость проекта, впоследствие я понял что и та сумму которую я обозначал в первом раунде переговоров была мала - всё это давало свои плоды. Как итог в декабре я отсилы написал 10-15 строк кода, маленький багфикс и всё.</p>
+<p> В январе, после новогодних праздников, я снова приступил к проекту с новыми силами. Производительность вернулся на свой уровень, я быстро закончил оставшуюся часть задач, обернул весь проект в докер контейнеры (client, db, backend), подняли на время тестовый стенд. </p></p>
+
+<p>Стенд поднимал на <a href="https://vscale.io/">Vscale</a>, взяли самый дешёвый инстанс за 200р месяц (512 RAM, 1 CPU, 20 GB ssd). Админка у этого сервиса вполне приятная, легко добавляют SSH ключи, можно мониторить CPU, трафик, диск. Скрин к сожалению не приложу, в данный момент у меня нету запущенных серверов. На этом этапе я споткнулся об багу Liquibase + Spring Boot (<a href="https://liquibase.jira.com/browse/CORE-2863">issue</a>). При запуске из джарки он не хотел работать нормально, пришлось выносить запуск в отдельный docker image который ждал поднятия котнейнера с <code>Postgresql</code> и запускался на время выполнения скрипта. Дальше у меня начал падать спринг, с малым количеством памяти - крутил, вертел настройки распределения памяти между контейнерами - но 512 МБ не хватало как бы я не пытался.
+<br/>
+Так же было написано костыльное решение для CI.</p>
+
+<pre><code class="language-#!/bin/sh">
+while echo $1 | grep -q ^-; do
+    eval $( echo $1 | sed 's/^-//' )=$2
+    shift
+    shift
+done
+
+ROOT=$PWD
+
+# build java
+./gradlew clean bootRepackage
+
+# build server docker image
+mkdir docker/server/build
+cp build/libs/bdsm-1.0-SNAPSHOT.jar docker/server/build/app.jar
+cd docker/server
+docker build -t ${docker_login}/server:latest . --build-arg SPRING_PROFILE=${profile}
+rm -r build
+
+# build client
+cd ${ROOT}/src/main/react
+npm i
+npm run production
+</code></pre>
+
+<p>И примерно тоже самое для деплоя через ssh.</p>
+
+<hr/>
+
+<p>Как-то так, я рассказал что мы использовали для работы, как мы совместно прокрастенировали. На данный момент проект готов процентов на 70, у меня осталось 2 фичи незаимплеменченные, но их отложили на после-релизное время поэтому я не сильно напрягаюсь.
+<hr/></p>
+
+<h3 id="уроки-вынесенные-из-этого-проекта">Уроки вынесенные из этого проекта</h3>
+
+<ul>
+<li>Жесткие сроки внутри команды</li>
+<li>Продумывать прототип до мелочей</li>
+<li>Использовать UI-kit</li>
+<li>Браться за проект ровно за ту сумму, в которую ты его оценил.</li>
+</ul>
+
+<h3 id="полезности-для-меня">Полезности для меня</h3>
+
+<ul>
+<li>первый проект с нуля</li>
+<li>вспомнил Spring, на основной работе мы его не используем. Но недавно я нашёл подработку как раз на спринге</li>
+<li>потыкал в WebSocket, Docker</li>
+</ul>
+
+<p><center><img src="/posts/os/dream-team.png"></center>
+<center>Наша дрим тим, я справа ;)</center></p>
+
+              
+              
+            </div>
+          </div>
+          <hr>
+        
+	
+        </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://valekseev.me/js/docs.min.js"></script>
+<script src="http://valekseev.me/js/main.js"></script>
+
+<script src="http://valekseev.me/js/ie10-viewport-bug-workaround.js"></script>
+
+
+
+    
+  </body>
+</html>
