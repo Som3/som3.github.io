@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Home</title>
+    <title>Tags on Vladimir Alekseev</title>
     <link>http://valekseev.me/tags/</link>
-    <description>Recent content in Tags on Home</description>
+    <description>Recent content in Tags on Vladimir Alekseev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     
 	<atom:link href="http://valekseev.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Life</title>
-      <link>http://valekseev.me/tags/life/</link>
-      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://valekseev.me/tags/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Number1</title>
-      <link>http://valekseev.me/tags/number1/</link>
-      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://valekseev.me/tags/number1/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

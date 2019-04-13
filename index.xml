@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home</title>
-    <link>http://valekseev.me/</link>
-    <description>Recent content on Home</description>
+    <title>Vladimir Alekseev</title>
+    <link>http://valekseev.me/index.html</link>
+    <description>Recent content on Vladimir Alekseev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     
 	<atom:link href="http://valekseev.me/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Номер 1. Глава 1</title>
-      <link>http://valekseev.me/blog/number1/chapter1/</link>
-      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://valekseev.me/blog/number1/chapter1/</guid>
-      <description>Месяц назад мне досталась книга &amp;ldquo;Номер 1. Как стать лучшим в том что ты делаешь&amp;rdquo; от @artempchelyakov, не сказать что я во всё это верю - в эти книги &amp;ldquo;личностного роста&amp;rdquo;. Мне кажется, что каждый должен набить свои шишки сам. Но последнее время друзья меня убеждали, что из каждой такой книги можно что-то подчерпнуть для себя, пусть это будет всего 1 абзац из 300 страниц, но всё же. Да и фраза &amp;ldquo;Умный учится на чужих ошибках&amp;rdquo; - тоже не спроста появилась.</description>
-    </item>
-    
-    <item>
-      <title>Опять впервый раз</title>
-      <link>http://valekseev.me/blog/fisrt/</link>
-      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://valekseev.me/blog/fisrt/</guid>
-      <description>После парочки неуспешных попыток написать структурированный длинно пост - я понял что это не моё. Да и ноут сдох с последним постом (а так же многими изменениями сайта. эх крутая была фото-галлерея). Так что теперь будут маленькие заметочки и просто сумбур моих мыслей, не зря ведь настраивал этот блог. 
-Предыдущий год  Закончил универ Поступил в магистратуру и бросил Набрал 10 кг и теперь я жирный Сделал предложение своей девушке батрачил целый год, что бы стать ведущим разрабом в компании сгонял в италию - было круто ;)</description>
-    </item>
     
   </channel>
 </rss>

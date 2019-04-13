@@ -3,61 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://valekseev.me/blog/number1/chapter1/</loc>
-    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
+    <loc>http://valekseev.me/index.html</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://valekseev.me/blog/fisrt/</loc>
-    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://valekseev.me/blog/</loc>
-    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://valekseev.me/category/</loc>
+    <loc>http://valekseev.me/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://valekseev.me/</loc>
-    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://valekseev.me/category/life/</loc>
-    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://valekseev.me/tags/life/</loc>
-    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://valekseev.me/tags/number1/</loc>
-    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://valekseev.me/resume/</loc>
-  </url>
-  
-  <url>
-    <loc>http://valekseev.me/tags/</loc>
-    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://valekseev.me/whishlist/</loc>
   </url>
   
 </urlset>
